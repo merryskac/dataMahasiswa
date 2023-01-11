@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="DataGrid.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="dll.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="HalamanAwal.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="nilai.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="DataGrid.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="dll.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="HalamanAwal.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="nilai.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

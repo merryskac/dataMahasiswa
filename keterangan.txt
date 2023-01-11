@@ -1,0 +1,4 @@
+- file 'tugas3.rar' itu projeknya
+- file 'dataMhsDAO.rar' itu file dllnya
+- pas pertama dibuka, aplikasi error, makanya harus taruh di references dataMhsDAO.dll. kalau malas baekstrak, langsung saja pakai yang dll, saya tidak tau yang mana diantara dua itu yang betul. tes2 sj. kalau mau liat2 kodingan di dalamnya, ekstrak "dataMhsDAO.rar"
+-kalo bingung, di grup saja

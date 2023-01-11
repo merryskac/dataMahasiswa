@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="delete.png" />
+    <None Remove="jorge.jpg" />
+    <None Remove="L.png" />
+    <None Remove="Logo_Universitas_Tadulako_Palu.png" />
+    <None Remove="magnifying-glass.png" />
+    <None Remove="N.png" />
+    <None Remove="O.png" />
+    <None Remove="pexels-josh-sorenson-1714208.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.0.29" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="dataMhsDAO">
+      <HintPath>..\..\dataMhsDAO\dataMhsDAO\obj\Debug\dataMhsDAO.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="delete.png" />
+    <Resource Include="jorge.jpg" />
+    <Resource Include="L.png" />
+    <Resource Include="Logo_Universitas_Tadulako_Palu.png" />
+    <Resource Include="magnifying-glass.png" />
+    <Resource Include="N.png" />
+    <Resource Include="O.png" />
+    <Resource Include="pexels-josh-sorenson-1714208.jpg" />
+  </ItemGroup>
+
+</Project>
